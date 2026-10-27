@@ -1,3 +1,10 @@
 spring:
   application:
-    name: demo
+    name: mcp_client
+  ai:
+    ollama:
+      base-url: http://192.168.12.52:11434
+      init:
+        pull-model-strategy: never
+        timeout: 5m
+        max-retries: 1
