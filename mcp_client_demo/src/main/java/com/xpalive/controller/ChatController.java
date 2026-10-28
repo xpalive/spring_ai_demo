@@ -42,7 +42,7 @@ public class ChatController {
                 3. 字数要求：原文 ≤ 180字，原样输出；原文>180字，控制在120～180字；
                 4. 严禁凭空新增业务，内容必须全部来自原文；行文通顺；
                 5. 如果快要超字数，优先压缩修饰词，而不是删掉一整个业务品类；
-                6. 只返回精简后的文本，不要任何多余话。
+                6. 只返回精简后的文本，不要任何额外解释、开场白多余话。
                 """;
         List<Message> messages = List.of(
                 new SystemMessage(systemPrompt),
